@@ -41,7 +41,13 @@ Tests to check various functionalities of Entrata [Visit Website](https://www.en
     - For execution of this Test case we write @Test annotation for nav() method and then implement this class using maven install command.
     - Asesert.assertEquals method is used to verify the nabvigation is as per expectation and we also get the output in the console.
 
-    
+
+
+  ## Dependencies Used
+
+  
+        ![image](https://github.com/rohitsh311/Entrata/assets/143522780/0d384e7e-3948-42f9-a0ef-402ddfc70fb6)
+
 
 
       
