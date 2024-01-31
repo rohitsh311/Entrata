@@ -9,44 +9,41 @@ import org.testng.annotations.Test;
 import urlaunch.browserlaunch;
 
 public class Watch extends browserlaunch {
-	
+
 	// Test -2 Click on Watch demo button and fill the details and verify the
-		// details entered are correct or not
+	// details entered are correct or not
 
-		@Test(priority = 1)
-		public static void Watch() {
-			browser();
-			
-			WebElement sig = d.findElement(By.xpath("//a[@class='button-default solid-dark-button']"));
+	@Test(priority = 1)
+	public static void Watch() {
+		browser();
 
-			// Assertion for checking watch demo button is enabled
-			Assert.assertTrue(sig.isEnabled());
-			System.out.println("Watchdemo button is enabled");
-			sig.click();
+		WebElement sig = d.findElement(By.xpath("//a[@class='button-default solid-dark-button']"));
 
-			// Entering details and checking by using assertions whether details are correct
+		// Assertion for checking watch demo button is enabled
+		Assert.assertTrue(sig.isEnabled());
+		System.out.println("Watchdemo button is enabled");
+		sig.click();
 
-			d.findElement(By.xpath("//input[@id='FirstName']")).sendKeys("Rohit");
+		// Entering details and checking by using assertions whether details are correct
 
-			// Assertion for checking First name entered is correct
-			Assert.assertEquals(d.findElement(By.xpath("//input[@id='FirstName']")).getAttribute("value"), "Rohit");
-			System.out.println("First  name is correct");
+		d.findElement(By.xpath("//input[@id='FirstName']")).sendKeys("Rohit");
 
-			d.findElement(By.xpath("//input[@id='LastName']")).sendKeys("Havale");
+		// Assertion for checking First name entered is correct
+		Assert.assertEquals(d.findElement(By.xpath("//input[@id='FirstName']")).getAttribute("value"), "Rohit");
+		System.out.println("First  name is correct");
 
-			// Assertion for checking Last name entered is correct
-			Assert.assertEquals(d.findElement(By.xpath("//input[@id='LastName']")).getAttribute("value"), "Havale");
-			System.out.println("Last  name is correct");
+		d.findElement(By.xpath("//input[@id='LastName']")).sendKeys("Havale");
 
-			Select s = new Select(d.findElement(By.xpath("//select[@id='Unit_Count__c']")));
-			s.selectByVisibleText("1 - 10");
+		// Assertion for checking Last name entered is correct
+		Assert.assertEquals(d.findElement(By.xpath("//input[@id='LastName']")).getAttribute("value"), "Havale");
+		System.out.println("Last  name is correct");
 
-			// Assertion for checking DOM selected is correct
-			Assert.assertEquals(s.getFirstSelectedOption().getText(), "1 - 10");
-			System.out.println("Selected value is correct");
-		}
-	
-	
-	
+		Select s = new Select(d.findElement(By.xpath("//select[@id='Unit_Count__c']")));
+		s.selectByVisibleText("1 - 10");
+
+		// Assertion for checking DOM selected is correct
+		Assert.assertEquals(s.getFirstSelectedOption().getText(), "1 - 10");
+		System.out.println("Selected value is correct");
+	}
 
 }

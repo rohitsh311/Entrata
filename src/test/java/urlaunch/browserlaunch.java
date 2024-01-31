@@ -20,6 +20,7 @@ public class browserlaunch {
 	public static WebDriver d = new ChromeDriver();
 
 	// Test 1- To check user has navigated to required webpage by passing right url
+
 	@Test
 	public static void browser() {
 
@@ -41,7 +42,5 @@ public class browserlaunch {
 		Assert.assertEquals(expectedurl, actualurl);
 		System.out.println("Url verified");
 	}
-
-	
 
 }
