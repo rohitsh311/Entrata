@@ -1,6 +1,6 @@
 # Entrata Task
 
-Tests to check various functionalities of entrata.com webapplication.
+Tests to check various functionalities of Entrata [Visit Website](https://www.entrata.com "Entrata") webapplication.
 * Test 1 - To check user has navigated to required webpage by passing right url.
   - Here user passes the url[Visit Website](https://www.entrata.com "Entrata") in the address bar.After entering the said url user is navigated to home page of said      webapplication.
 
