@@ -11,6 +11,9 @@ Tests to check various functionalities of entrata.com webapplication.
  * Test 2 - Click on Watch demo button and fill the details and verify the details entered are correct or not.
   - Here user clicks on Watch Demo button displayed on homepage [Visit Website](https://www.entrata.com "Entrata")
 
-    ![image](https://github.com/rohitsh311/Entrata/assets/143522780/e55de73e-d8e6-4b4d-b69b-4848712fa962)
+    ![image](https://github.com/rohitsh311/Entrata/assets/143522780/8e0dc5d7-37f3-4561-b005-0511038c5843)
+
+
+      
 
   
