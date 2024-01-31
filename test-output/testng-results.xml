@@ -2,35 +2,33 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="28395" started-at="2024-01-31T13:32:32Z" finished-at="2024-01-31T13:33:00Z">
+  <suite name="Suite" duration-ms="38655" started-at="2024-01-31T14:54:06Z" finished-at="2024-01-31T14:54:45Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="28395" started-at="2024-01-31T13:32:32Z" finished-at="2024-01-31T13:33:00Z">
-      <class name="Navig.navigtn">
-        <test-method status="PASS" signature="browser()[pri:0, instance:Navig.navigtn@67304a40]" name="browser" duration-ms="2328" started-at="2024-01-31T13:32:40Z" finished-at="2024-01-31T13:32:43Z">
+    <test name="Test" duration-ms="38655" started-at="2024-01-31T14:54:06Z" finished-at="2024-01-31T14:54:45Z">
+      <class name="WatchMode.Watchbutton">
+        <test-method status="PASS" signature="browser()[pri:0, instance:WatchMode.Watchbutton@67304a40]" name="browser" duration-ms="2050" started-at="2024-01-31T14:54:15Z" finished-at="2024-01-31T14:54:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method status="PASS" signature="nav()[pri:2, instance:Navig.navigtn@67304a40]" name="nav" duration-ms="5926" started-at="2024-01-31T13:32:54Z" finished-at="2024-01-31T13:33:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nav -->
-      </class> <!-- Navig.navigtn -->
-      <class name="WatchMode.Watch">
-        <test-method status="PASS" signature="browser()[pri:0, instance:WatchMode.Watch@2d6764b2]" name="browser" duration-ms="2258" started-at="2024-01-31T13:32:38Z" finished-at="2024-01-31T13:32:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser -->
-        <test-method status="PASS" signature="Watch()[pri:1, instance:WatchMode.Watch@2d6764b2]" name="Watch" duration-ms="11698" started-at="2024-01-31T13:32:43Z" finished-at="2024-01-31T13:32:54Z">
+        <test-method status="PASS" signature="Watch()[pri:1, instance:WatchMode.Watchbutton@67304a40]" name="Watch" duration-ms="13356" started-at="2024-01-31T14:54:17Z" finished-at="2024-01-31T14:54:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Watch -->
-      </class> <!-- WatchMode.Watch -->
+        <test-method status="PASS" signature="nav()[pri:2, instance:WatchMode.Watchbutton@67304a40]" name="nav" duration-ms="8162" started-at="2024-01-31T14:54:37Z" finished-at="2024-01-31T14:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nav -->
+      </class> <!-- WatchMode.Watchbutton -->
       <class name="urlaunch.browserlaunch">
-        <test-method status="PASS" signature="browser()[pri:0, instance:urlaunch.browserlaunch@35f26e72]" name="browser" duration-ms="6130" started-at="2024-01-31T13:32:32Z" finished-at="2024-01-31T13:32:38Z">
+        <test-method status="PASS" signature="browser()[pri:0, instance:urlaunch.browserlaunch@2d6764b2]" name="browser" duration-ms="9043" started-at="2024-01-31T14:54:06Z" finished-at="2024-01-31T14:54:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
+        <test-method status="PASS" signature="nav()[pri:2, instance:urlaunch.browserlaunch@2d6764b2]" name="nav" duration-ms="6015" started-at="2024-01-31T14:54:31Z" finished-at="2024-01-31T14:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nav -->
       </class> <!-- urlaunch.browserlaunch -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

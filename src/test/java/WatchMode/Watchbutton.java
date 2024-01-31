@@ -1,14 +1,17 @@
 package WatchMode;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.internal.WebElementToJsonConverter;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import urlaunch.browserlaunch;
 
-public class Watch extends browserlaunch {
+public class Watchbutton extends browserlaunch {
 
 	// Test -2 Click on Watch demo button and fill the details and verify the
 	// details entered are correct or not
@@ -45,5 +48,9 @@ public class Watch extends browserlaunch {
 		Assert.assertEquals(s.getFirstSelectedOption().getText(), "1 - 10");
 		System.out.println("Selected value is correct");
 	}
-
+    
+	
+	
+	
+	
 }

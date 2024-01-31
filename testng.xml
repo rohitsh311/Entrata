@@ -4,8 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="urlaunch.browserlaunch"/>
-      <class name="WatchMode.Watch"/>
-      <class name="Navig.navigtn"/>
+      <class name="WatchMode.Watchbutton"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

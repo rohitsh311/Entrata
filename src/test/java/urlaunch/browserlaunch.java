@@ -42,5 +42,26 @@ public class browserlaunch {
 		Assert.assertEquals(expectedurl, actualurl);
 		System.out.println("Url verified");
 	}
+	
+	// Test 3 - Navigating to different page and verifying the navigation.
+
+		@Test(priority = 2)
+		public static void nav() throws InterruptedException {
+			d.navigate().to("https://www.entrata.com");
+			WebElement erm = d.findElement(By.cssSelector(
+					"#gatsby-focus-wrapper > div > footer > div:nth-child(1) > div > div:nth-child(1) > a:nth-child(10)"));
+			JavascriptExecutor j = (JavascriptExecutor) d;
+			j.executeScript("arguments[0].click();", erm);
+			Thread.sleep(3000);
+
+			// Assertion for checking navigation is to desired page
+
+			Assert.assertEquals(d.getCurrentUrl(), "https://www.entrata.com/products/revenue-management");
+			System.out.println("Navigated to Revenue management");
+
+		}
+		
+		
+			
 
 }
