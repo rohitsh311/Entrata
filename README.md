@@ -1,4 +1,4 @@
-||Entrata Task||
+**Strong bold** Entrata Task
 
 Tests to check various functionalities of entrata.com webapplication.
 * Test 1 - To check user has navigated to required webpage by passing right url.
