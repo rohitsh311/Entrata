@@ -1,4 +1,4 @@
-package WatchMode;
+package WatchDemo;
 
 import java.util.List;
 
@@ -17,8 +17,9 @@ public class Watchbutton extends browserlaunch {
 	// details entered are correct or not
 
 	@Test(priority = 1)
-	public static void Watch() {
+	public static void Watch() throws InterruptedException {
 		browser();
+		Thread.sleep(3000);
 
 		WebElement sig = d.findElement(By.xpath("//a[@class='button-default solid-dark-button']"));
 
@@ -48,9 +49,5 @@ public class Watchbutton extends browserlaunch {
 		Assert.assertEquals(s.getFirstSelectedOption().getText(), "1 - 10");
 		System.out.println("Selected value is correct");
 	}
-    
-	
-	
-	
-	
+
 }
