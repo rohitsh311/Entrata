@@ -7,7 +7,10 @@ Tests to check various functionalities of entrata.com webapplication.
      ![image](https://github.com/rohitsh311/Entrata/assets/143522780/c64c51d5-26e6-42c4-a92f-1da62eab42c5)
 
   - By using Hard assertion(eg. Assert.assertEquals) validation of navigation to required webpage is done.
-  Steps for checking said functionality:
-  - Create a a Maven project for the said task.
-  - Pass url[Visit website](https://www.entrata.com) by using get method(Syntax :driver.get()) 
+
+ * Test 2 - Click on Watch demo button and fill the details and verify the details entered are correct or not.
+  - Here user clicks on Watch Demo button displayed on homepage [Visit Website](https://www.entrata.com "Entrata")
+
+    ![image](https://github.com/rohitsh311/Entrata/assets/143522780/e55de73e-d8e6-4b4d-b69b-4848712fa962)
+
   
