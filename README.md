@@ -42,6 +42,9 @@ Tests to check various functionalities of Entrata [Visit Website](https://www.en
     - Asesert.assertEquals method is used to verify the nabvigation is as per expectation and we also get the output in the console.
 
 
+### Note: The Execution of said code can also be done by keeping all the @Test annotations as it is and directly implementing the pom.xml file through maven. The steps in 
+###       above respective test cases are mentioned to simplyfy the process of understanding the execution of test cases.
+
 
   ## Dependencies Used
 
