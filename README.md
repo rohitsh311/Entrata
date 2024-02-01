@@ -1,7 +1,7 @@
 # Entrata Task
 
 Tests to check various functionalities of Entrata [Visit Website](https://www.entrata.com "Entrata") webapplication.
-* Testcase 1 - To check user has navigated to required webpage by passing right url.
+#### * Testcase 1 - To check user has navigated to required webpage by passing right url.
   - Here user passes the url [Visit Website](https://www.entrata.com "Entrata") in the address bar.After entering the said url user is navigated to home page of said      webapplication.
 
      ![image](https://github.com/rohitsh311/Entrata/assets/143522780/c64c51d5-26e6-42c4-a92f-1da62eab42c5)
@@ -18,7 +18,7 @@ Tests to check various functionalities of Entrata [Visit Website](https://www.en
     - Here, only browser method is executed and in console the message of "Url is Verified" is diplayed.
       
 
- * Testcase 2 - Click on Watch demo button and fill the details and verify the details entered are correct or not.
+#### * Testcase 2 - Click on Watch demo button and fill the details and verify the details entered are correct or not.
   - Here user clicks on Watch Demo button displayed on homepage [Visit Website](https://www.entrata.com "Entrata"). After clicking below page appears where we check the data
      which we are entering is validated.
 
@@ -32,7 +32,7 @@ Tests to check various functionalities of Entrata [Visit Website](https://www.en
     - Here we use Assert.assertTrue() to check whether the Watch Demo button is enabled and Assert.assertEquals() for validating the data enterd inside the text boxes is same 
       as entered.In console we get various output printed which validate the proper functioning as per expectations.
 
- * Testcase 3- Navigating to different page and verifying the navigation.
+#### * Testcase 3- Navigating to different page and verifying the navigation.
     - Here user clicks on link [Visit Website](https://www.entrata.com/products/revenue-management "ERM") mentioned in footer section of the homepage of this webapplication.
       After clicking the link [Visit Website](https://www.entrata.com/products/revenue-management "ERM") page validation of navigation to expected webpage is done.
 
