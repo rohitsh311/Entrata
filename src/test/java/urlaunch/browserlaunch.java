@@ -21,7 +21,7 @@ public class browserlaunch {
 	public static WebDriver d = new ChromeDriver();
 
 	// Test 1- To check user has navigated to required webpage by passing right url
-
+	// @Test
 	public static void browser() {
 
 		ChromeOptions opt = new ChromeOptions();
@@ -52,6 +52,7 @@ public class browserlaunch {
 	@Test(priority = 2)
 	public static void nav() throws InterruptedException {
 		d.navigate().to("https://www.entrata.com");
+		d.manage().window().maximize();
 		WebElement erm = d.findElement(By.cssSelector(
 				"#gatsby-focus-wrapper > div > footer > div:nth-child(1) > div > div:nth-child(1) > a:nth-child(10)"));
 		JavascriptExecutor j = (JavascriptExecutor) d;

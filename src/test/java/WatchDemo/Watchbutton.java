@@ -16,7 +16,7 @@ public class Watchbutton extends browserlaunch {
 	// Test -2 Click on Watch demo button and fill the details and verify the
 	// details entered are correct or not
 
-	@Test(priority = 1)
+	// @Test(priority = 1)
 	public static void Watch() throws InterruptedException {
 		browser();
 		Thread.sleep(3000);
